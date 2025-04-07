@@ -14,24 +14,41 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Landing Page</title>
   </head>
-  <body>
-    <div class="container grid grid-cols-5 gap-4">
-      <header>
-        <nav>
-          <span>AkmlMhs</span>
-          <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Project</li>
-          </ul>
-          <ul>
-            <li>Chat</li>
-            <li>Booking</li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+  <body class="container grid grid-cols-5 gap-4">
+    <header class="col-span-5 bg-red-100">
+      <nav class="flex justify-around items-center">
+        <span class="text-lg font-bold"><a href="">AkmlMhs</a></span>
+        <ul class="flex space-x-4">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Project</a></li>
+        </ul>
+        <ul class="flex space-x-4">
+          <li class="btn"><a href="">Chat</a></li>
+          <li class="btn"><a href="">See Portofolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="col-span-5 bg-red-100">
+      <span class="text-6xl font-semibold">Develop your skills in a new and unique way</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis consequatur nesciunt voluptates non, soluta excepturi saepe cum, sequi minima eos deleniti recusandae praesentium ipsum enim quo tenetur placeat suscipit.</p>
+      <ul class="flex space-x-4">
+        <li class="btn"><a href="#">Chat Now!!</a></li>
+        <li class="btn"><a href="#">Or Watch example?</a></li>
+      </ul>
+    </main>
+
+    <footer class="col-span-5 bg-red-100">
+      <ul class="flex justify-around">
+        <li>duolingo</li>
+        <li>magic leap</li>
+        <li>Microsoft</li>
+        <li>Codemhs</li>
+        <li>Tailwindcss</li>
+      </ul>
+    </footer>
   </body>
 </html>
